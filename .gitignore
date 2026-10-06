@@ -1,0 +1,51 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.temp
+*.bak
+*.log
+*.swp
+*.swo
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# MATLAB/Octave
+*.asv
+*.m~
+
+# Generated simulation output
+*.cache
+*.tmp
+runs/
+output/
+results/generated/
+
+# Build
+build/
+dist/
+out/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.*
+secrets.*
+
+# Archives
+*.zip
+*.7z
+*.rar
